@@ -1,0 +1,4 @@
+VLCKit is distributed by VideoLAN under the LGPL-2.1-or-later license.
+
+This repository is a packaging wrapper around the upstream VLCKit binary release.
+Run `./generate.sh` to refresh this file from the official VideoLAN archive when available.
