@@ -2,10 +2,10 @@
 
 import PackageDescription
 
-let vlcUpstreamVersion = "4.0.0a19"
-let vlcReleaseTag = "4.0.0-alpha.19"
+let vlcUpstreamVersion = "4.0.0a23"
+let vlcReleaseTag = "4.0.0-alpha.23"
 let vlcReleaseBaseURL = "https://github.com/niallwatchorn/VLCKit-SPM/releases/download"
-let vlcChecksum = "54b1efd946c658fe1036919a8abfc011231048e28751c56c376bb51aa4019aa0"
+let vlcChecksum = "2368013239b8e33a1b3803053e0dbc0c83482ca0be9cf90e141d2559d41750b5"
 let vlcBinaryURL = "\(vlcReleaseBaseURL)/\(vlcReleaseTag)/VLCKit.xcframework.zip"
 
 let package = Package(

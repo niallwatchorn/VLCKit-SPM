@@ -42,7 +42,7 @@ Add this repository as a Swift Package dependency in Xcode:
 Or declare it in another Swift package:
 
 ```swift
-.package(url: "https://github.com/niallwatchorn/VLCKit-SPM.git", from: "4.0.0-alpha.19")
+.package(url: "https://github.com/niallwatchorn/VLCKit-SPM.git", from: "4.0.0-alpha.23")
 ```
 
 Then add the product to your target dependencies:
@@ -90,7 +90,7 @@ If you have already downloaded and extracted the VideoLAN artifact:
 
 ```sh
 ./generate.sh \
-  --version 4.0.0a19 \
+  --version 4.0.0a23 \
   --repo-url https://github.com/niallwatchorn/VLCKit-SPM \
   --source-path ~/<YOUR_NAME>/Downloads/VLCKit-binary/VLCKit.xcframework
 ```
@@ -101,7 +101,7 @@ If VideoLAN exposes a direct artifact archive URL:
 
 ```sh
 ./generate.sh \
-  --version 4.0.0a19 \
+  --version 4.0.0a23 \
   --repo-url https://github.com/niallwatchorn/VLCKit-SPM \
   --source-url "PASTE_THE_DIRECT_VLCKIT_ARTIFACT_URL_HERE"
 ```
@@ -127,8 +127,8 @@ After running `generate.sh` successfully:
 
 The package uses semver-friendly tags for SwiftPM compatibility. For example:
 
-- upstream VLCKit version: `4.0.0a19`
-- package release tag: `4.0.0-alpha.19`
+- upstream VLCKit version: `4.0.0a23`
+- package release tag: `4.0.0-alpha.23`
 
 ## Repository Structure
 
